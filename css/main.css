@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Wildlife;
+    src: url(../webfonts/Wildlife\ Park.otf);
+  }
+  body{
+    background-color: #303841;
+  }
+  h2{
+    color: #eeeeee;
+    font-family:Wildlife ;
+    font-size: 80px;
+  }
+  *{
+    font-family: cursive;
+  }
+  
+  form{
+    background-color: #303841;
+  }
+
+.svg1{
+    position: absolute;
+    width: 15%;
+    top: -30%;
+    left: -5%;
+    fill: #eeeeee ;
+    z-index: -1;
+    animation: pulse 3s infinite;
+
+}
+.svg2{
+    position: absolute;
+    width: 15%;
+    top: 60%;
+    right: 2%;
+    fill: #eeeeee ;
+    height: 250px;
+    animation: pulse 3s 0.5S infinite;
+
+}
+.navbar{
+    background-color: #303841;
+
+}
+.navbara{
+    font-family:Wildlife ;
+font-size: 50px;
+color: #eeeeee;
+
+}
+.welcome{
+    margin-top: 20vh;
+    color: #eeeeee;
+}
+.welcome h1{
+    font-family:Wildlife ;
+font-size: 100px;
+padding: 5vh;
+}
+
+
+
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+a{
+  cursor: pointer;
+}

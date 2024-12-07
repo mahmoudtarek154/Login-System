@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+  
+    <link rel="shortcut icon" href="images/login.png" type="image/x-icon">
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Spicy Rice"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <div>
+      <form class="w-50 m-auto mt-5 p-5 shadow-lg">
+        <h2 class="text-center">Smart Login System</h2>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control inputname"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control inputemail"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter your email"
+          />
+          <div id="emailHelp" class="form-text text-white-50">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <input
+            type="password"
+            class="form-control inputpassword"
+            id="exampleInputPassword1"
+            placeholder="Enter your password"
+          />
+        </div>
+
+        <button onclick="loginAdd ()" type="submit" class="btn btn-outline-light w-100 mb-3 mt-3 signupbutton">
+          Sign Up
+        </button>
+        <p class="text-center mb-0 text-white-50">
+          You have an account?
+          <span>
+            <a onclick="logout ()"  class="text-white text-decoration-none curs">Signin</a>
+          </span>
+        </p>
+      </form>
+    </div>
+
+
+
+
+
+    <div>
+      <svg
+        class="svg1"
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 700 700"
+        style="overflow: hidden; display: block"
+        width="700"
+        height="700"
+      >
+        <defs></defs>
+        <g id="two-0" transform="matrix(1 0 0 1 0 0)" opacity="1">
+          <path
+            transform="matrix(1 0 0 1 350 350)"
+            id="two-18"
+            d="M 110.86517 45.921857 C 84.059322 109.919575 229.773272 154.379703 223.478448 223.478448 C 219.49268 267.230511 176.689171 316.247427 133.032439 321.168719 C 80.198337 327.124549 51.957255 241.562988 0 230.277693 C -33.632692 222.972556 -68.365162 249.275679 -102.761576 248.088389 C -142.389007 246.720535 -202.597603 255.343901 -219.454497 219.454496 C -244.548869 166.026972 -119.242391 113.279938 -141.336589 58.543531 C -162.33661 6.517852 -291.237728 55.256819 -300.951435 0 C -308.3643 -42.16839 -217.203037 -43.636808 -201.68327 -83.539946 C -185.300785 -125.661234 -249.246956 -185.456654 -219.350228 -219.350228 C -191.251508 -251.20542 -129.525556 -201.729396 -90.633338 -218.808232 C -49.976867 -236.661809 -44.264434 -321.778182 -0.000001 -318.262687 C 48.464749 -314.413602 35.234216 -212.021086 80.801632 -195.072398 C 132.243861 -175.938588 200.968919 -278.564615 240.731039 -240.73104 C 279.030641 -204.289049 185.691805 -134.113062 204.458667 -84.689554 C 221.61505 -39.507325 333.647171 -47.345569 323.942926 -0.000001 C 309.499938 70.465184 138.654334 -20.423486 110.86517 45.921857 Z "
+            stroke="undefined"
+            stroke-width="1"
+            stroke-opacity="1"
+            fill-opacity="1"
+            visibility="visible"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="4"
+          ></path>
+        </g>
+      </svg>
+
+      <svg
+        class="svg2"
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 700 900"
+        style="overflow: hidden; display: block"
+        width="700"
+        height="700"
+      >
+        <defs>
+          <linearGradient
+            id="two-19"
+            x1="350"
+            y1="-350"
+            x2="350"
+            y2="350"
+            spreadMethod="pad"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop
+              offset="0%"
+              stop-color="hsl(1.4, 100%, 67%)"
+              stop-opacity="1"
+            ></stop>
+            <stop
+              offset="100%"
+              stop-color="hsl(167, 52%, 78%)"
+              stop-opacity="1"
+            ></stop>
+          </linearGradient>
+        </defs>
+        <g id="two-0" transform="matrix(1 0 0 1 0 0)" opacity="1">
+          <path
+            transform="matrix(1 0 0 1 350 350)"
+            id="two-51"
+            d="M 207.106369 49.085111 C 219.930799 88.357267 279.436991 104.218923 287.994068 144.636057 C 293.540245 170.831987 279.252794 199.728706 265.164577 222.499499 C 251.22338 245.032662 232.781528 276.22981 206.298891 277.107502 C 149.60439 278.986481 127.198537 152.673404 72.814199 168.802287 C 44.156335 177.301413 72.929064 244.44119 44.962444 254.994693 C 24.194632 262.831649 7.078479 230.387625 -12.849034 220.609377 C -28.001451 213.174225 -43.699754 199.583834 -60.426695 201.839214 C -100.909432 207.297711 -118.840416 271.552135 -159.430788 276.142224 C -184.98689 279.03219 -222.294143 268.789567 -230.637552 244.461523 C -248.020877 193.774534 -127.104387 147.634858 -154.015481 101.297575 C -173.195986 68.271327 -234.273332 112.417521 -269.706252 98.165047 C -296.582165 87.354528 -339.752387 67.634248 -334.661939 39.11637 C -325.27836 -13.452626 -206.492383 27.149306 -184.660122 -21.583673 C -177.141208 -38.367051 -206.942764 -55.993816 -203.449982 -74.049738 C -200.287805 -90.3966 -176.132427 -96.318789 -169.951702 -111.778993 C -161.868876 -131.997033 -184.778107 -164.25059 -167.671094 -177.720977 C -148.139784 -193.100304 -118.335371 -158.164525 -93.87364 -162.593914 C -79.287365 -165.235112 -64.589969 -174.516384 -55.82593 -186.471591 C -27.38152 -225.273195 -67.145098 -325.50724 -19.077879 -327.554516 C 31.620591 -329.713862 -15.941462 -198.643764 32.194343 -182.583197 C 56.738065 -174.394156 71.6151 -226.459788 97.484747 -225.995048 C 116.215347 -225.658559 125.562156 -197.950864 143.597995 -192.885583 C 173.793966 -184.405187 208.302195 -208.93274 238.373007 -200.018703 C 263.635628 -192.529981 296.069678 -177.306357 301.86523 -151.602417 C 309.311604 -118.576891 272.689605 -89.195754 254.87598 -60.406718 C 241.871951 -39.390588 219.124256 -23.200222 210.607672 -0.000001 C 205.011539 15.244551 202.065371 33.648098 207.106369 49.085111 Z "
+            stroke="undefined"
+            stroke-width="1"
+            stroke-opacity="1"
+            fill-opacity="1"
+            visibility="visible"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="4"
+          ></path>
+        </g>
+      </svg>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
